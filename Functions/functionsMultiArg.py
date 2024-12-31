@@ -1,13 +1,13 @@
 # For learning if conditional statement
 
-def product(*args):
+def product(*nums):
     product = 1
-    for num in args:
+    for num in nums:
         product *= num
     return product
 
-def user(**kargs):
-    for key, value in kargs.items():
+def user(**key_value):
+    for key, value in key_value.items():
         print(f"{key}: {value}")
 
 

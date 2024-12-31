@@ -2,7 +2,8 @@ x = 30
 a = 10
 
 def scope_test():
-    a = 20
+    global a
+    a = 0
     print(x, a)
 
 scope_test()
