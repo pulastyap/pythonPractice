@@ -7,3 +7,5 @@ nth_char = name[4]      # Get nth character: to get nth character you have to pa
 print(first_char)
 print(last_char)
 print(nth_char)
+
+

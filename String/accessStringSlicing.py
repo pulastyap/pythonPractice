@@ -1,3 +1,4 @@
+
 name = "Pulastya"
 few_char = name[2:6]            # Output: last (substring from index 2 to 5)
 from_first = name[:4]           # Output: Pula
@@ -13,3 +14,4 @@ print(reversed_name1)
 string2 = "A man, a plan, a canal: Panama"
 reversed2 = string2[::-1]
 print(reversed2)  # Output: amaP :lanac a ,nalp a ,nam A
+
