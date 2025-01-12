@@ -1,3 +1,7 @@
-file = open("/Users/pulastya/Desktop/test3.txt", "r")
+import os
+import shutil as sh
 
-tot_chars = file.read()
+with open("/Users/pulastya/Desktop/test2.txt", "w") as file:
+    file.write("I am Pulastya.\nI love Python")
+
+sh.copy("/Users/pulastya/Desktop/test2.txt", "/Users/pulastya/Desktop/test.txt")

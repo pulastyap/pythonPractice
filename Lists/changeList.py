@@ -12,7 +12,7 @@ print(fav_animals)          # Output: ['Dog', 'Lion', 'Rabit', 'Cow', 'Tiger', '
 # Change an element using slicing
 fav_animals[2:5] = ["Buffalo", "Cat", "Rat"]
 print(fav_animals)          # Output: ['Dog', 'Lion', 'Buffalo', 'Cat', 'Rat', 'Goat', 'Squirrel']
-
+ 
 fav_animals[1:4] = ["Cow"]
 print(fav_animals)          # Output: ['Dog', 'Cow', 'Rat', 'Goat', 'Squirrel']
 
