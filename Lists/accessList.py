@@ -37,9 +37,10 @@ print(my_list[::-1])        # Output: [50, 40, 30, 20, 10] Reversing the list
 
 # Slicing with negative index
 my_list = [10, 20, 30, 40, 50]
-print(my_list[1:-3])        # Output: [20]
-print(my_list[-1:-5])       # Output: []
-print(my_list[-1:])         # Output: [50]
-print(my_list[-1:-5:1])     # Output: [] 
-print(my_list[-1:-6:-1])    # Output: [50, 40, 30, 20, 10]
+# print(my_list[1:-3])        # Output: [20]
+# print(my_list[-1:-5])       # Output: []
+# print(my_list[-1:])         # Output: [50]
+# print(my_list[-1:-5:1])     # Output: [] 
+# print(my_list[-1:-6:-1])    # Output: [50, 40, 30, 20, 10]
 
+print(my_list.index(20))

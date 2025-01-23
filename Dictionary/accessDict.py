@@ -1,4 +1,4 @@
-'''
+
 student = {'name': 'Pulastya', 'age': 36, 'grade': 'B', 'weight': 71.8, 'height': 5.7, 'sal': 40}
 student.clear()
 print(student)   
@@ -6,9 +6,6 @@ print(student)
 empty_item = {}
 empty_item.clear()
 print(empty_item)
-
-
-
 
 
 student = {'name': 'Pulastya', 'age': 36, 'grade': 'B', 'weight': 71.8, 'height': 5.7, 'sal': 40}
@@ -62,7 +59,7 @@ updated_student = {'age': 36, 'sal': 40}
 student.update(updated_student)
 print(student)          # Output: {'name': 'Pulastya', 'age': 36, 'grade': 'B', 'weight': 71.8, 'height': 5.7, 'sal': 40}
 
-'''
+
 
 student = {'name': 'John', 'age': 21, 'grade': 'A'}
 print(student.get("address", "Bangalore"))      # Output: Bangalore

@@ -1,4 +1,4 @@
-'''
+
 # Indexing
 my_tuple = (10, 20, 30, 40)
 print(my_tuple[0])   # Output: 10
@@ -18,7 +18,6 @@ print(my_tuple[-4])   # Output: 10
 print(my_tuple[-5])   # IndexError: tuple index out of range
 
 
-'''
 # Slicing
 my_tuple = (10, 20, 30, 40, 50)
 print(my_tuple[1:4])     # Output: (20, 30, 40) 

@@ -9,7 +9,7 @@ fav_animals.append("Buffalo")       # ["Dog", "Cat", "Cow", "Goat", "Buffalo"]
 print(fav_animals)                  # Output: ['Dog', 'Cat', 'Cow', 'Goat', 'Buffalo']
 
 # Add an element at a specific position : You can use negative index as well
-fav_animals.insert(1, "Lion")       # ['Dog', 'Lion', 'Cat', 'Cow', 'Goat', 'Buffalo']
+fav_animals.insert(-15, "Lion")       # ['Dog', 'Lion', 'Cat', 'Cow', 'Goat', 'Buffalo']
 print(fav_animals)                  # Output: ['Dog', 'Lion', 'Cat', 'Cow', 'Goat', 'Buffalo']
 
 # Add an element at a specific position using negative index
