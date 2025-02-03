@@ -1,10 +1,9 @@
-import numpy as np
+def genGreet():
+    print('Welcome')
 
 
-print(dir(np))
-
-
-
+def greet(name):
+    print('Welcome', name, '!')
 
 
 

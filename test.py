@@ -1,1 +1,3 @@
-help(str)
+name = 'Pulastya'
+
+print(name.count('P'))
